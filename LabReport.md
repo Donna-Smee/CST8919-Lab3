@@ -4,8 +4,26 @@
 Donna Ha - 041174159
 
 ## Overview of Lab Tasks
+The objective of this lab was to set up an Ubuntu virtual machine on Azure, install and configure Grafana, and then integrate it with Azure Monitor for data visualization.
+
+First, I created an Ubuntu VM in Azure, and added an inbound security rule on the NSG to allow traffic on PORT 3000.
+
+Second, I used SSH to connect to the VM using Visual Studio Code and used the provided commands to install and run Grafana server. 
+
+Once Grafana is installed and successfully running, I enabled Managed Identity on the Azure Portal as well as in the config files on the VM. (This however did not work.) I also created role assignments to allow for access.
+
+Once Grafana is connected to Azure Monitor, I connected to the VM and created a dashboard where I displayed read/write metrics through different visual settings.
 
 ## Challenges Encountered
+I encountered multiple errors and challenges while doing this lab. Here are 4 major challenges. 
+
+The first challenge was the VM size. Although I knew I should use the CDO subscription, that subscription did not allow me to create a VM in the B2s v2 size. Before requesting a quota increase (which I initially thought was take a long time to process), I opted to try the student subscription instead. I was able to create a VM with the B2s size, however I created it with the B1s size to save money. Once I tried to install Grafana, I quickly realized B1s was too small for these tasks. I changed the VM size to B2s using the Azure Portal which took +10 minutes. However, after the size change, the commands were able to run effortlessly.
+
+The second challenge was the installation of Grafana. The provided commands gave some errors that dealt with missing dependencies and missing files/directories. To solve this issue, I created the missing directories, and changed the commands (such as using lower case instead of upper case) so that it would work.
+
+The third challenge was authenticating Azure Monitor in Grafana. Depsite following the lab instructions and trying things on my own, I was not able to find the Managed Identity option. I needed the 3 IDs which were not made available in the student subscription. Thus I deleted all my resources, switched to CDO and requested a quota increase. This only took 5 minutes before the request was granted. I re did the lab steps, and found instructions online on how to obtain the 3 IDS.
+
+The fourth challenge was figuring out exactly what role assignments were needed for proper authentication and permissions. Without this I was unable to connect to Azure Monitor properly, and once I was in and created a dashboard, I was unable to select the VM. I ended up doing a bit of trial and error until Grafana was able to access the correct resources. 
 
 ## Task 1-2: Prepare Your Ubuntu Server and Install Grafana
 
