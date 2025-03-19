@@ -245,146 +245,75 @@ Label, placement change, table instead of list, values include last and range
 ![][image72]
 
 
-[image1]: (images/image_1.png)
-
-[image2]: (images/image_2.png)
-
-[image3]: (images/image_3.png)
-
-[image4]: (images/image_4.png)
-
-[image5]: (images/image_5.png)
-
-[image6]: (images/image_6.png)
-
-[image7]: (images/image_7.png)
-
-[image8]: (images/image_8.png)
-
-[image9]: (images/image_9.png)
-
-[image10]: (images/image_10.png)
-
-[image11]: (images/image_11.png)
-
-[image12]: (images/image_12.png)
-
-[image13]: (images/image_13.png)
-
-[image14]: (images/image_14.png)
-
-[image15]: (images/image_15.png)
-
-[image16]: (images/image_16.png)
-
-[image17]: (images/image_17.png)
-
-[image18]: (images/image_18.png)
-
-[image19]: (images/image_19.png)
-
-[image20]: (images/image_20.png)
-
-[image21]: (images/image_21.png)
-
-[image22]: (images/image_22.png)
-
-[image23]: (images/image_23.png)
-
-[image24]: (images/image_24.png)
-
-[image25]: (images/image_25.png)
-
-[image26]: (images/image_26.png)
-
-[image27]: (images/image_27.png)
-
-[image28]: (images/image_28.png)
-
-[image29]: (images/image_29.png)
-
-[image30]: (images/image_30.png)
-
-[image31]: (images/image_31.png)
-
-[image32]: (images/image_32.png)
-
-[image33]: (images/image_33.png)
-
-[image34]: (images/image_34.png)
-
-[image35]: (images/image_35.png)
-
-[image36]: (images/image_36.png)
-
-[image37]: (images/image_37.png)
-
-[image38]: (images/image_38.png)
-
-[image39]: (images/image_39.png)
-
-[image40]: (images/image_40.png)
-
-[image41]: (images/image_41.png)
-
-[image42]: (images/image_42.png)
-
-[image43]: (images/image_43.png)
-
-[image44]: (images/image_44.png)
-
-[image45]: (images/image_45.png)
-
-[image46]: (images/image_46.png)
-
-[image47]: (images/image_47.png)
-
-[image48]: (images/image_48.png)
-
-[image49]: (images/image_49.png)
-
-[image50]: (images/image_50.png)
-
-[image51]: (images/image_51.png)
-
-[image52]: (images/image_52.png)
-
-[image53]: (images/image_53.png)
-
-[image54]: (images/image_54.png)
-
-[image55]: (images/image_55.png)
-
-[image56]: (images/image_56.png)
-
-[image57]: (images/image_57.png)
-
-[image58]: (images/image_58.png)
-
-[image59]: (images/image_59.png)
-
-[image60]: (images/image_60.png)
-
-[image61]: (images/image_61.png)
-
-[image62]: (images/image_62.png)
-
-[image63]: (images/image_63.png)
-
-[image64]: (images/image_64.png)
-
-[image65]: (images/image_65.png)
-
-[image66]: (images/image_66.png)
-
-[image67]: (images/image_67.png)
-
-[image68]: (images/image_68.png)
-
-[image69]: (images/image_69.png)
-
-[image70]: (images/image_70.png)
-
-[image71]: (images/image_71.png)
-
-[image72]: (images/image_72.png)
+[image1]: images/image_1.png
+[image2]: images/image_2.png
+[image3]: images/image_3.png
+[image4]: images/image_4.png
+[image5]: images/image_5.png
+[image6]: images/image_6.png
+[image7]: images/image_7.png
+[image8]: images/image_8.png
+[image9]: images/image_9.png
+[image10]: images/image_10.png
+[image11]: images/image_11.png
+[image12]: images/image_12.png
+[image13]: images/image_13.png
+[image14]: images/image_14.png
+[image15]: images/image_15.png
+[image16]: images/image_16.png
+[image17]: images/image_17.png
+[image18]: images/image_18.png
+[image19]: images/image_19.png
+[image20]: images/image_20.png
+[image21]: images/image_21.png
+[image22]: images/image_22.png
+[image23]: images/image_23.png
+[image24]: images/image_24.png
+[image25]: images/image_25.png
+[image26]: images/image_26.png
+[image27]: images/image_27.png
+[image28]: images/image_28.png
+[image29]: images/image_29.png
+[image30]: images/image_30.png
+[image31]: images/image_31.png
+[image32]: images/image_32.png
+[image33]: images/image_33.png
+[image34]: images/image_34.png
+[image35]: images/image_35.png
+[image36]: images/image_36.png
+[image37]: images/image_37.png
+[image38]: images/image_38.png
+[image39]: images/image_39.png
+[image40]: images/image_40.png
+[image41]: images/image_41.png
+[image42]: images/image_42.png
+[image43]: images/image_43.png
+[image44]: images/image_44.png
+[image45]: images/image_45.png
+[image46]: images/image_46.png
+[image47]: images/image_47.png
+[image48]: images/image_48.png
+[image49]: images/image_49.png
+[image50]: images/image_50.png
+[image51]: images/image_51.png
+[image52]: images/image_52.png
+[image53]: images/image_53.png
+[image54]: images/image_54.png
+[image55]: images/image_55.png
+[image56]: images/image_56.png
+[image57]: images/image_57.png
+[image58]: images/image_58.png
+[image59]: images/image_59.png
+[image60]: images/image_60.png
+[image61]: images/image_61.png
+[image62]: images/image_62.png
+[image63]: images/image_63.png
+[image64]: images/image_64.png
+[image65]: images/image_65.png
+[image66]: images/image_66.png
+[image67]: images/image_67.png
+[image68]: images/image_68.png
+[image69]: images/image_69.png
+[image70]: images/image_70.png
+[image71]: images/image_71.png
+[image72]: images/image_72.png
